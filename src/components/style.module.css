@@ -1,0 +1,259 @@
+.Header{
+    border: 0.2vh solid #4e2d24;
+    background: #4e2d24;
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: oblique;
+    color: #78852B;
+    text-shadow: 0.2vh 0.2vh  #bcbe33;
+}
+.Corpo{
+    border: 0.2vh solid transparent;
+    height: 88vh;
+    overflow: auto;
+}
+.Corpo::-webkit-scrollbar{
+    width: 0px;
+}
+.Sidebar{
+    border: 0.4vh solid #4e2d24;
+    background: #4e2d24;
+    position: absolute;
+    width: 30vh;
+    top: 0;
+    height: 100vh;
+    display: none;
+}
+.Sidebar > button,.Header > button{
+    all: unset;
+}
+.Header > button{
+    position: absolute;
+    left: 0;
+}
+.Sidebar > button > img,.Header > button > img{
+    width: 4vh;
+    border: 0.4vh solid transparent;
+    margin-top: 0.5vh;
+    margin-left: 2vh;
+    cursor: pointer;
+}
+.Sidebar > button > img{
+    margin-left: 13vh;
+}
+.Sidebar > a{
+    display: block;
+    text-decoration: none;
+    color: #78852B;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 3vh;
+    text-transform: uppercase;
+}
+.Sidebar > a:hover{
+    filter: invert(1);
+    transition: 2.5s;
+}
+.CheckBox{
+    border: 0.2vh solid transparent;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 2vh;
+}
+.CheckBox > i{
+    text-align: center;
+    font-size: 4vh;
+}
+.CheckBox > i:hover{
+    filter: invert(1);
+    transition: 5s;
+}
+
+input,textarea{
+    all: unset;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+    width: 80%;
+    height: 4vh;
+    text-align: center;
+    border-radius: 5vh;
+    background: #6b3526;
+    color: snow;
+    font-size: 2.4vh;
+    box-shadow: 0.1vh 0.1vh 0.3vh #4e2d24;
+}
+input::placeholder,textarea::placeholder{
+    color: snow;
+}
+textarea{
+    height: 20vh;
+}
+button{
+    all: unset;
+    border: 0.2vh solid #4e2d24;
+    background: #6b3526;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+    width: 30vh;
+    border-radius: 4vh;
+    cursor: pointer;
+    font-size: 4vh;
+    box-shadow: 0.1vh 0.1vh 0.3vh black;
+}
+button:hover,input:focus,textarea:focus{
+    transition: 5s;
+    filter: invert(1);
+}
+.Login,.Adicionar{
+    border: 2.5vh solid;
+    border-image: url('https://static.vecteezy.com/ti/fotos-gratis/p1/4753390-dark-wood-texture-old-panel-background-gratis-foto.jpg') 50;
+    background: #78852B;
+    text-align: center;
+    width: 75%;
+    display: block;
+    margin: auto;
+    margin-top: 10vh;
+    height: 50vh;
+    border-radius: 2vh;
+    overflow: auto;
+}
+.Adicionar{
+    height: 70vh;
+    width: 85%;
+}
+.Login::-webkit-scrollbar,.Adicionar::-webkit-scrollbar{
+    width: 0px;
+}
+.TextãoInicial{
+    color: yellow;
+    font-size: 5vh;
+    text-shadow: 0.3vh 0.3vh 0.2vh black;
+    margin-top: 4vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Card,.AdicionarTitle,.ListaLogin{
+    border: 2vh solid;
+    border-image: url('https://static.vecteezy.com/ti/fotos-gratis/p1/4753390-dark-wood-texture-old-panel-background-gratis-foto.jpg') 50;
+    width: 30vh;
+    background: #6b3526;
+    text-align: center;
+    display: inline-block;
+    margin-left: 2.5vh;
+    height: 5vh;
+    word-wrap: break-word;
+    font-size: 2.5vh;
+}
+.AdicionarTitle{
+    color: white;
+    margin-top: 2vh;
+    width: 50vh;
+    height: 20vh;
+    overflow: auto;
+}
+.AdicionarTitle:hover{
+    transition: 5s;
+    filter: invert(1);
+}
+.ListaLogin{
+    width: 60vh;
+    height: 50vh;
+    overflow: auto;
+}
+.ListaLogin::-webkit-scrollbar{
+    width: 0px;
+}
+.ListaLogin > img{
+    border: 0.5vh solid transparent;
+    width: 100%;
+    height: 40vh;
+    margin-left: -0.7%;
+}
+.ListaLogin > h1,.ListaLogin > h2,.ListaLogin > h3{
+    color: yellow;
+    font-size: 6vh;
+    text-shadow: 0.1vh 0.1vh whitesmoke;
+    word-break: break-all;
+    text-align: center;
+}
+.ListaLogin > h2{
+    font-size: 4vh;
+}
+.ListaLogin > h3{
+    font-size: 2vh;
+}
+.Card::-webkit-scrollbar,.AdicionarTitle::-webkit-scrollbar{
+    width: 0px;
+}
+.Card > a{
+    text-decoration: none;
+}
+
+.Card > a > h2{
+    color: #bcbe33;
+    margin-top: 0.5vh;
+}
+.CardID{
+    border: 0.2vh solid transparent;
+    width: 95%;
+    display: block;
+    margin: auto;
+    margin-top: 2vh;
+}
+.CardID > h1,.CardID > h3{
+    text-align: center;
+    color: #e9ec14;
+    text-shadow: 0.3vh 0.3vh black;
+    font-size: 10vh;
+}
+.CardID > h3{
+    font-size: 5vh;
+}
+.CardID > p{
+    font-size: 3vh;
+    text-align: left;
+    margin-top: 0.5vh;
+    color: white;
+    padding: 2vh;
+    border: #6b3526;
+    background: #4e2d24;
+    border-radius: 1vh;
+    height: 20vh;
+    word-break: break-all;
+}
+.CardID > img{
+    width: 30vh;
+    height: 30vh;
+    display: block;
+    margin: auto;
+}
+.CardID > p::-webkit-scrollbar{
+    width: 0px;
+}
+.CardImg > img{
+    display: inline-block;
+    width: 64vh;
+    margin-top: 2vh;
+    height: 60vh;
+}
+.Comentário > h1{
+    border: 0.2vh solid #78852B;
+    margin-top: 2vh;
+    padding: 2vh;
+    background: #bcbe33;
+    border-radius: 2vh;
+    color: black;
+    font-size: 4vh;
+    height: 4vh;
+    overflow: auto;
+}
+.Comentário > h1::-webkit-scrollbar{
+    width: 0px;
+}
